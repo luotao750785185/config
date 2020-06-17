@@ -1,0 +1,13 @@
+version: 2.0.0
+portInitial: 8
+activatedProfile: ci
+basePath: /home/iop-user
+
+server:
+  port: ${portInitial}741
+
+spring:
+  application:
+    name: iop-cache-service
+
+
